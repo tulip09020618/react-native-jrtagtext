@@ -1,17 +1,18 @@
 # React Native JRTagText
 
-带标签的Text
+带标签的Text，效果见下图：
+
 ![](./screenshots/2.png)
 
 ## 安装
 `npm install react-native-jrtagtext --save`
 
 ## 用法
-* 导入
+* 1. 导入
 
 `import JRTagText from 'react-native-jrtagtext';`
 
-* 使用
+* 2. 使用
 
 ```
 <JRTagText 
@@ -20,7 +21,8 @@
 />
 ```
 
-* 效果：
+* 3. 效果：
+
 ![](./screenshots/1.png)
 
 ## 属性说明
