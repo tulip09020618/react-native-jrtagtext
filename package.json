@@ -1,6 +1,6 @@
 {
   "name": "react-native-jrtagtext",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "带标签的Text",
   "main": "lib/index.js",
   "scripts": {
