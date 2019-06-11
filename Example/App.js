@@ -24,8 +24,22 @@ export default class App extends Component < Props > {
     return (
       <View style={styles.container}>
         <JRTagText 
-        tag="标签"
-        content="内容"
+          content="这里放置你想显示的内容。这里放置你想显示的内容。这里放置你想显示的内容。"
+          style={styles.textBack}
+        />
+        <JRTagText 
+          tag="标签"
+          content="这里放置你想显示的内容。这里放置你想显示的内容。这里放置你想显示的内容。"
+          style={styles.textBack}
+        />
+        <JRTagText 
+          tag="这里是自定义标签"
+          content="这里放置你想显示的内容。这里放置你想显示的内容。这里放置你想显示的内容。"
+          style={styles.textBack}
+          contentLineHeight={30}
+          tagBackStyle={styles.tagBack}
+          tagTextStyle={styles.tagText}
+          contentTextStyle={styles.contentText}
         />
       </View>
     );
@@ -36,7 +50,24 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    marginLeft: 15,
+    marginRight: 15,
+  },
+  textBack: {
+    marginTop: 10,
+    marginBottom: 10,
+  },
+  tagBack: {
+    backgroundColor: '#080',
+    borderRadius: 4,
+    height: 20,
+  },
+  tagText: {
+    color: '#fff',
+    fontSize: 15,
+  },
+  contentText: {
+    fontSize: 20,
+    color: '#666',
   },
 });
