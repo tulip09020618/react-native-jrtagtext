@@ -4,6 +4,8 @@
 
 ![](./screenshots/2.png)
 
+查看示例代码：[Example/App.js](https://github.com/tulip09020618/react-native-jrtagtext/blob/master/Example/App.js)
+
 ## 安装
 `npm install react-native-jrtagtext --save`
 
